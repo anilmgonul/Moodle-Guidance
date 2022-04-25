@@ -27,3 +27,11 @@ Not 2: Moodle yuksek derecede ozellestirilmis veyahut istege bagli uyarlanmis bi
 Egitmen profiliniz, egitimi alan kisilere ve calisma arkadaslariniza mevcut oldugundan oturu, kendinizi tanitmak icin iyi bir firsattir.
 
 ![](models/teacher_profile.webp)
+
+Sag ust kosede **Profile** tikladiktan sonra, kendi kisisel sayfaniza eriseceksiniz ve kisisel bilgilerinizi buradan bicimlendirebilir, fotograf ekleyebilir, tanitim olusturabilirsiniz. Lutfen **Edit Profile** tiklayiniz.
+
+![](models/editing_teacher_profile.webp)
+
+Burada, kendiniz hakkinda yazi yazabilir veya istege bagli olarak video kaydi paylasabilirsiniz, fotografinizi ekleyebilir ve irtibat bilgilerini paylasabilirsiniz.
+
+### Online Egitim Kursu Olusturmak
