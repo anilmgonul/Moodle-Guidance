@@ -106,4 +106,32 @@ Daha sonraki adim ise, bos olan quiz sayfasini sorular ile doldurabilirsiniz. Ac
 
 ![](models/adding_questions.gif)
 
-Moodle icerisinde, kullanabilcegimiz 15 farkli soru tipi mevcut; coktan secmeli sorular, eslestirme ve surukle birak sadece birkac tanesi. Kullanmak istediginiz soru tipini secin ve **Add** butonuna tiklayiniz. 
+Moodle icerisinde, kullanabilcegimiz 15 farkli soru tipi mevcut; coktan secmeli sorular, eslestirme ve surukle birak sadece birkac tanesi. Kullanmak istediginiz soru tipini secin ve **Add** butonuna tiklayiniz.
+
+### Odev Nasil Eklenir
+
+Odev olusturma egitmen olarak siklikla kullanacaginiz bir ozellik. Guzel bir geri donusum almak icin ogrencilerden odev yuklemelerini isteyebilirsiniz ve egitim nasil gittigini degerlendirebilirsiniz.
+
+Daha onceden quiz bolumunde gosterildigi gibi,  **+ Add an activity or resource** sekmesine tiklayip, acilan pencereden **Assignment** secenegini secmelisiniz.
+
+Yeni penderede, odevin ismini yazmalisiniz ve ogrenciden spesifik olarak ne bekledigini belirtmelisiniz. Ornegin, bir video izlemelerini soyleyip, onun hakkinda tasvir bolumunde yorumda bulunmalarini, fikirlerini sunmalarini isteyebilirsiniz.
+
+![](models/adding_assignment.webp)
+
+Odev aktivitesinde bir cok yararli ayarlar yapilabilir. Bazilari ise sunlardir;
+
+#### Availability
+
+Bu kisimda, odevin yuklenmesi icin gerekli sureyi ayarlayabilir veya ogrencilere odev teslim gunu gelmeden hatirlatici ayarlayabilirsiniz.
+
+![](models/availability_settings.webp)
+
+#### Submission types
+
+Bu kisimda, ogrencilerin odevi yuklerken uygulamasi gereken spesifik formati ayarlayabilirsiniz. Eger, ogrencilerin direkt olarak Moodle icinde cevap vermesini istiyorsaniz, "Online text"i seciniz. Dosya yuklemelerini istiyorsaniz "File submission" secenegini secebilirsiniz.
+
+![](models/submission_types.webp)
+
+Eger, ayarlari yaptiysaniz ve tamamsaniz sayfanin altinda bulunan **Save and return to course** butonuna tiklayiniz.
+
+![](models/assignment_ready.webp)
