@@ -35,3 +35,49 @@ Sag ust kosede **Profile** tikladiktan sonra, kendi kisisel sayfaniza eriseceksi
 Burada, kendiniz hakkinda yazi yazabilir veya istege bagli olarak video kaydi paylasabilirsiniz, fotografinizi ekleyebilir ve irtibat bilgilerini paylasabilirsiniz.
 
 ### Online Egitim Kursu Olusturmak
+
+Default olarak, Moodle egitmenlerin ( sistem icerisinde tanimlanmis rol anlaminda) yeni kurs eklemelerine olanak tanimiyor. Bu baglamda, Moodle'in icerisindeki kullanici rollerine hizlica goz atabiliriz.
+
+- **Administrator** sistem ile her seyi yapabilen yoneticidir.
+- **Manager** admin ile benzer yetkilere sahiptir ancak rolu ve yetkileri uyarlanabilir.
+- **Course Creator** yeni kurs olusturur.
+- **Teacher** kurs icerigi ve aktivite ekleyip, duzenleyebilir.
+- **Student** mevcut kurslara erisim saglar.
+
+Eger egitmen iseniz, admin veya manager ile iletisime gecip, kurs olusturma izni isteyebilirsiniz veya sizin icin bos bir kurs olusturmasini talep edebilirsiniz. Ornek olarak, asagidaki demo uzerinden egitmen gorunumu ile dokuz kursun admin tarafindan atandigini gorebilirsiniz.
+
+![](models/course_overview.webp)
+
+Olusturulan bu kurslar ile, neredeyse her seyi yapabiliriz; yeni unite olusturabilir, onlari silebilir, quiz ve kaynakcalar ekleyebilir veya not sistemi kurabiliriz. Kursun icerigini hazirlamaya baslamak icin, sag ustte yer alan ikona tiklayip, **Turn editing on** secenegini secmeliyiz. Eger, egitmen olarak, boyle bir opsiyonunuz yok ise, admin ile iletisime gecebilirsiniz.
+
+![](models/ turn_editing_on.webp)
+
+### Kurs Yapisi Nasil Olusturulur
+
+Moodle'in icerisinde dort farkli kurs formati bulunmaktadir:
+
+- **Single activity format** calisma icin tek bir aktivite veya kaynak barindiginda uygundur. Ornek olarak; anket, kitap veya video dersi gosterilebilir. Ayrica, bu formati SCORM paketiniz varsa secebilirsiniz.
+
+![](models/single_activity_format.webp)
+
+- **Topics format** iceriginizi farkli bolumler halinde organize etmenizi saglar. Ornek olarak; dersler ve uniteler verilebilir.
+
+![](models/topics_format.webp)
+
+- **Weekly format** topic formatina benzerlik gosterir, fakat uniteler yerine haftaliklar olacaktir. Bu opsiyon, ogrenci icin duzenli bir tempoda egitim vermek isterseniz, guzel bir secenektir.
+
+![](models/weekly_format.webp)
+
+- **Social format** size geleneksel unite yerine forum formatini sunar. Eger resmi olmayan bir egitim methodu secerseniz, bu guzel bir opsiyondur ve egitim alanlar arasinda tartisma ortami dogurur.
+
+![](models/social_format.webp)
+
+Boylece, sizin icin olusturlmus olan bos kursu, bu sekilde egitim icerigi ve aktivite ile doldurabilirsiniz. Sag ustte bulunan ayarlar ikonuna tiklayiniz ve "editing modu" 'u aciniz.
+
+Bunu yaptiktan sonra, tekrardan, **Edit settings** 'i acilir menuden seciniz.
+
+![](models/edit_course_settings.webp)
+
+Asagi kaydirin ve **Course format** kisminda formatinizi secin ve sayfanin en altinda bulunan **Save and display** butonuna tiklayin.
+
+![](models/choosing_course_format.webp)
