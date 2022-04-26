@@ -81,3 +81,29 @@ Bunu yaptiktan sonra, tekrardan, **Edit settings** 'i acilir menuden seciniz.
 Asagi kaydirin ve **Course format** kisminda formatinizi secin ve sayfanin en altinda bulunan **Save and display** butonuna tiklayin.
 
 ![](models/choosing_course_format.webp)
+
+### Aktivite ve Kaynak Eklemek
+
+Moodle dilinde, aktiviteler ogrencilerin egitimleri interaktif bir sekilde ogrenmesini saglar. Quizler, forumlar, odevler genelde aktivite olarak degerlendirilir.
+
+Kaynaklar ise, egitimin icerigini arttirmak icin kullanilan ogelerdir. Dokuman veya sunum olabilir, hatta, YouTube gibi harici websitelerinden alinan ogeler bile dahil edilebilir.
+
+Aktivite ve kaynak eklemek icin, sag ustte bulunan ayarlar ikonundan "editin mode" acilmali. Editin mode etkinlestirildikten sonra, **+ Add an activity or resource** seceneginin mevcut oldugunu goreeksiniz. Bu secenege tiklayip, acilan pencerenden uygun opsiyonlar secilmelidir. 14 farkli aktivite ve 7 farkli kaynak oldugunu goreceksiniz.
+
+![](models/adding_activity_resource.gif)
+
+Tercih ettiginiz aktivite veya kaynagi sectikten sonra, **Add** butonuna tiklayiniz.
+
+### Quiz Nasil Eklenir
+
+Eger quiz eklemek istiyorsaniz, **+ Add an activity or resource** sekmesine tiklayip, acilan pencereden **Quiz** secenegini secmelisiniz. Bunu yaptiktan sonra, quiz ayarlar menusu gelecektir.
+
+![](models/quiz_editing_menu.webp)
+
+Quiz ismini doldurunuz. Daha sonra, **Save and return** 'e tiklayabilirsiniz, cunku bos olan pencereden doldurulmasi mecburi olan tek kisim quiz ismidir. Bununla beraber, bu menudeki diger ayarlara goz atmaktan cekinmeyin. Ornek olarak, belli bir zaman ayari yapabilirsiniz veya quiz'in deneme sayisina limit getirebilirsiniz.
+
+Daha sonraki adim ise, bos olan quiz sayfasini sorular ile doldurabilirsiniz. Acilan yeni pencerede, **Add** butonuna ve **+ a new question** tiklayin.
+
+![](models/adding_questions.gif)
+
+Moodle icerisinde, kullanabilcegimiz 15 farkli soru tipi mevcut; coktan secmeli sorular, eslestirme ve surukle birak sadece birkac tanesi. Kullanmak istediginiz soru tipini secin ve **Add** butonuna tiklayiniz. 
