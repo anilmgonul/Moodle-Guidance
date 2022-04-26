@@ -135,3 +135,95 @@ Bu kisimda, ogrencilerin odevi yuklerken uygulamasi gereken spesifik formati aya
 Eger, ayarlari yaptiysaniz ve tamamsaniz sayfanin altinda bulunan **Save and return to course** butonuna tiklayiniz.
 
 ![](models/assignment_ready.webp)
+
+## Egitim Alanlari Yonetmek
+
+Egitiminiz, kursunuz hazir ve iceriginizi kesfetmeleri icin ogrencileri davet etme zamani.
+
+Ilk olarak, kayit methodlarini ayarlamaliyiz. Kurs icerisinde, sol tarafta bulunan **Participants** sekmesini secin, sag ustte bulunan ayarlar ikonuna tiklayin ve **Enrolment methods** 'a tiklayiniz.
+
+![](models/enrolment_methods.webp)
+
+3 farkli kayit methodu var:
+
+- Manual Enrolment
+- Guest access
+- Self Enrolment
+
+Default olarak, manual kayit opsiyonu sunulmaktadir. Eger guest enrolment veya self enrolment secenegini aktif hale getirmek istiyorsaniz, goz ikonuna tiklayiniz. Goz ikonun yanindaki yanindaki ikona tiklayarak, kayit suresi, kayit sifresi veya max katilimci gibi opsiyonlari da ayarlayabilirsiniz.
+
+![](models/enrolment_setup.webp)
+
+### Ogrencileri Kursa Nasil Kayit Edebiliriz
+
+Genellikle, egitimciler kullanicilari sisteme eklemek zorunda kalmazlar, cunku kullanici lsitesi admin veya manage tarafindan yuklenmis olur. Bu sebepten oturu, sol taraftaki menuden **Participants** seciniz. Buradan sag tarafta bulunan **Enrol users** tiklayiniz. daha sonra, acilan pencereden "select users" icerisnde bulunan listeden kullanici secebilirsiniz.
+
+Eger tamamsaniz, **enrol selected users and cohorts** tiklayiniz.
+
+![](models/enrolment_options.webp)
+
+### Gruplar Nasil Olusturulur
+
+Daha elverisli olma adina, kayit olan kullanicilari gruplara ayirabilirsiniz. Bu ozellik, ayni dersi farkli siniflara anlatmak durumundaysaniz sizin icin cok faydali olacaktir.
+
+Gruplari olusturmak icin, sag ustte bulunan ayarlar ikonuna tiklayiniz, ve **Groups** seciniz.
+
+![](models/groups.webp)
+
+Acilan yeni pencereden asagi kaydiriniz ve **Create group** tiklayiniz. Bundan sonra, group ismini girebilir, fotograf ayarlayabilir ve group mesaji olusturabilirsiniz. Daha sonra, **Save changes** tiklayiniz.              
+
+Acilan yeni pencereden, sag tarafta listelenmis kullanicilari secebilir ve grouplara ayirabilirsiniz.
+
+![](models/adding_into_group.webp)
+
+### Ogrencilere Mesaj Nasil Atilir
+
+Moodle egitim alanlarla veya calisma arkadaslariyla iletisim kurmaya olanak saglar. Ekranin ust kisminda, dusunce baloncugu sembolu bulunmaktadir. Bu ikon rehber listesini acar.
+
+![](models/messaging_moodle.webp)
+
+Boylece, kullanicilara veya gruplara ozel mesajlar atabilirsiniz ve bu hizlica bir seyi danismak icin guzel bir opsiyondur.
+
+### Not Defteri Nasil Kurulur
+
+Moodle icinde bulunan not defteri ozelligi, ogrencilerin aktivitelerden aldigi puanlari degerlendirmeyi saglar. Ayrica, egitmen olarak notlari manual olarak girebilir, gorebilir ve degerlendirebilirsiniz.
+
+Kurs icerisinde not defterini olusturmak icin, sag tarafta bulunan ayarlar ikonuna tiklayiniz, **Gradebook setup** seciniz. Yeni pencerede, kurs icin puanlanmis tum listeyi gorebilirsiniz.
+
+![](models/gradebook_setup.webp)
+
+Eger ki, not defteri itemlerini daha organize gormek istiyorsaniz, aktiviteleri kategorilere ayirabilirsiniz. Ekrani asagi kaydirin ve **Add category** tiklayiniz. Demo kursta, biz 3 farkli puanlanmis kategori kullaniyoruz:
+
+- Assignment
+- Quiz
+- Simulation
+
+Sizin kendi kursunuzda, istediginiz kadar kategoriye sahip olabilirsiniz. "Add category" tikladiktan sonra, olusturulan her bir kategoriye isim veriniz ve **Save changes** tiklayiniz.
+
+Boylece ogeleri ok isaretine tiklayarak, kategorilerine gonderebilirsiniz.
+
+![](models/gradebook_category.webp)
+
+Ogeleriniz organize olduktan sonra, balans notlarinizi atamak daha kolay. Mesela, ev odevi kategorisi daha onemli ise bu kategorinin balans notu daha yuksek olur. Eger notu 50 ise, checkbox'i isaretleyin ve 50 giriniz.
+
+Diger tum balans notlari otomatik olarak ayarlanacaktir. Diger kategorilerin notlarini da siz ayarlayabilirsiniz tabii.
+
+![](models/weight_setup.webp)
+
+### Egitim Alanlarin Notlarini Nasil Puanlariz
+
+Ev odevlerini degerlendirmek icin, baslamak istediginiz bor odevi seciniz. sol taraftaki menuden **Grades** secenegini seciniz ve degerlendirmek istediginiz aktiviteyi seciniz.
+
+![](models/grading_assignment.webp)
+
+"Grading summary page" kismina iki farkli yol ile ulasabiliriz; **View all submissions** veya **Grade**.
+
+**View all submissions** tikladiktan sonra, kayit olan kullanicilarin listesini ve teslim ettikleri odevleri goreceksiniz.
+
+![](models/student_submission.webp)
+
+**Grade** tiklayarak bazi ogrencilerin odevlerini inceleyebilirsiniz.
+
+Not degteri arayuzu, dip not birakmaniza, aciklama yapmaniza, renkli isaretleme yapmaniza olanak saglar. Sag panelde bulunan **Enter the grade** tiklayarak teslim edilen odevi notlayabilirsiniz, sonra, **Save changes** ve **Save and show** tiklayarak sonlandirabilirsiniz.
+
+![](models/grading_submission.webp)
